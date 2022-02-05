@@ -1,0 +1,16 @@
+$bg-color-body: #c3cfe2;
+$bg-color-white: #fff;
+$color-section-text: #686767;
+$bg-color-footer: #686de0;
+$color-footer-text: #b7b4e0;
+$bg-color-parent: #2d2b3b;
+
+@mixin standard-font-page {
+  font-family: "Roboto", sans-serif;
+}
+
+@mixin standard-display-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
